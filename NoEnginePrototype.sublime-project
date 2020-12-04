@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "target/.."
+		}
+	],
+	"build_systems": [
+	{
+		"name": "Debug",
+		"working_dir": "${project_path}",
+		"cmd":["cargo run"]
+	}
+	]
+}
